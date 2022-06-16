@@ -15,3 +15,9 @@ ul {
     gap: 15px;
     padding-right: 40px;
 }
+
+a {
+    text-decoration: none;
+    color: #F3EED9;
+    
+}
