@@ -16,23 +16,87 @@
     transition: all 0.3s ease-in-out;
 }
 
-#active:checked ~ .navbar{
+#active:checked~.navbar {
     clip-path: circle(75%);
-  }
-
-ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: end;
-    gap: 100px;
-    padding-right: 40px;
 }
 
-a {
+.menu-btn {
+    position: absolute;
+    z-index: 2;
+    right: 20px;
+    /* left: 20px; */
+    top: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    background: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+#active:checked~.menu-btn {
+    color: #fff;
+}
+
+#active:checked~.menu-btn i:before {
+    content: "\f00d";
+}
+
+.navbar ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    margin: 15px 0;
+}
+
+.navbar ul li a {
+    color: none;
     text-decoration: none;
-    color: #F3EED9;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 5px 30px;
+    color: #fff;
+    border-radius: 50px;
+    background: #000;
+    position: relative;
+    line-height: 50px;
+    transition: all 0.3s ease;
 }
 
-a:hover {
-    opacity: 50%;
+.navbar ul li a:after {
+    position: absolute;
+    content: "";
+    background: #fff;
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    width: 104%;
+    height: 110%;
+    left: -2%;
+    top: -5%;
+    border-radius: 50px;
+    transform: scaleY(0);
+    z-index: -1;
+    animation: rotate 1.5s linear infinite;
+    transition: transform 0.3s ease;
+}
+
+.wrapper ul li a:hover:after {
+    transform: scaleY(1);
+}
+
+.wrapper ul li a:hover {
+    color: #fff;
+}
+
+input[type="checkbox"] {
+    display: none;
 }
