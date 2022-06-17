@@ -35,24 +35,6 @@ span.nav-toggle {
     display: inline-block;
 }
 
-span.circle-1 {
-    background-color: #0e89a0;
-    width: 20px;
-    height: 20px;
-}
-
-span.circle-2 {
-    background-color: #e7e7da;
-    width: 30px;
-    height: 30px;
-}
-
-span.circle-3 {
-    background-color: #ddc249;
-    width: 40px;
-    height: 40px;
-}
-
 ul {
     display: none;
     flex-direction: column;
@@ -111,3 +93,7 @@ ul li:hover {
         display: none;
     }
 }
+
+.active{
+    display: flex;
+  }
