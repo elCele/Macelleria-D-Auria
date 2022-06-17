@@ -106,3 +106,7 @@ h1 {
     border-color: #f3eed9;
     border-width: 2px;
 }
+
+a {
+    list-style: none;
+}
