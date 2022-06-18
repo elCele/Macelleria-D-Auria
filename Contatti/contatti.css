@@ -1,14 +1,26 @@
 .box {
+    margin-top: 25px;
     border-radius: 15px;
-    width: 90%;
-    height: 90%;
+    width: auto;
+    height: auto;
     border-color: #798897;
     border-width: 5px;
     border-style: solid;
     position: relative;
+    overflow: hidden;
 }
 
 .map {
-    padding: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     height: 50%;
+}
+
+.info {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50%;
+    background-color: #f3eed9;
 }
