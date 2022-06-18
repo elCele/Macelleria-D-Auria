@@ -1,0 +1,14 @@
+.box {
+    border-radius: 15px;
+    width: 90%;
+    height: 90%;
+    border-color: #798897;
+    border-width: 5px;
+    border-style: solid;
+    position: relative;
+}
+
+.map {
+    padding: 10px;
+    height: 50%;
+}
