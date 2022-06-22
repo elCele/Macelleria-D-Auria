@@ -1,10 +1,14 @@
 .contatti {
     width: 100vw;
-    height: 10vh;
+    height: 20vh;
+    padding: 15px;
+    background-color: bisque;
 }
 
 #map {
-    width: 100%;
+    width: 50%;
     height: 100%;
     border: none;
+    position: relative;
+    align-self: right;
 }
