@@ -13,7 +13,7 @@
 }
 
 #info, #map {
-    position: absolute;
+    position: relative;
 }
 
 #info {
