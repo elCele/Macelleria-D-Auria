@@ -15,7 +15,7 @@ ul.nav li {
 }
 ul.nav a {
     display:block;
-    padding:10px;
+    padding:0 28px;
     color: black;
     text-decoration:none;
     font-family: montserrat, sans-serif;
@@ -23,7 +23,6 @@ ul.nav a {
 ul.nav a:hover,
 ul.nav li.current a {
     background-color: rgba(0, 0, 0, 0.318);
-    /*border-radius: 15px;*/
 }
 
 img {
