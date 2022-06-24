@@ -10,6 +10,7 @@
     align-items: center;
     margin-top: 50px;
     right: 0px;
+    margin-left: 0;
 }
 
 .entry_text, .entry_photo {
