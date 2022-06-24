@@ -8,6 +8,7 @@
 .entry {
     width: 100%;
     height: auto;
+    display: flex;
 }
 
 .entry_text, .entry_photo {
