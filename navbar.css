@@ -12,6 +12,7 @@ ul.nav {
 }
 ul.nav li {
     float:left;
+    border-radius: 15px;
 }
 ul.nav a {
     display:block;
