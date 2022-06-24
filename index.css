@@ -13,6 +13,7 @@
 
 .entry_text, .entry_photo {
     width: 50%;
+    height: auto;
 }
 
 .entry_text {
