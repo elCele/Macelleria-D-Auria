@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-* {
-    font-family: montserrat, sans-serif;
-}
-
 ul.nav {
     margin:0;
     padding:0;
@@ -22,6 +18,7 @@ ul.nav a {
     padding:0 28px;
     color: black;
     text-decoration:none;
+    font-family: montserrat, sans-serif;
 }
 ul.nav a:hover,
 ul.nav li.current a {
