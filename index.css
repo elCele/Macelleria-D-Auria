@@ -22,7 +22,7 @@
 }
 
 .entry_photo {
-    padding: 200px;
+    padding-left: 200px;
     background-image: url(./steak-reference-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
