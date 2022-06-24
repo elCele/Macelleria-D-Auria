@@ -9,7 +9,7 @@
     width: 100%;
     height: auto;
     display: flex;
-    margin: 150px;
+    margin: 20px;
 }
 
 .entry_text, .entry_photo {
@@ -18,7 +18,7 @@
 }
 
 .entry_text {
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 .entry_photo {
