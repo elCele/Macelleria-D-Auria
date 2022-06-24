@@ -12,6 +12,7 @@ ul.nav {
 }
 ul.nav li {
     float:left;
+    padding: 10px;
 }
 ul.nav a {
     display:block;
@@ -24,7 +25,6 @@ ul.nav a:hover,
 ul.nav li.current a {
     background-color: rgba(0, 0, 0, 0.318);
     /*border-radius: 15px;*/
-    padding: 10px;
 }
 
 img {
