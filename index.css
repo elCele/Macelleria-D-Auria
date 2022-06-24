@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    font-family: montserrat, sans-serif;
+}
+
+    /* entry */
+.entry {
+    width: 100%;
+    height: auto;
+}
+
+.entry_text, .entry_photo {
+    width: 50%;
+    height: 100%;
+}
+
+#steak1 {
+    width: auto;
+    height: auto;
+    padding: 50px;
+}
