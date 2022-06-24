@@ -4,7 +4,7 @@
     /* entry */
 .entry {
     width: 100%;
-    height: auto;
+    height: 400px;
     display: flex;
     margin: 20px;
     align-items: center;
