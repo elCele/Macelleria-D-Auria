@@ -23,7 +23,8 @@ ul.nav a {
 ul.nav a:hover,
 ul.nav li.current a {
     background-color: rgba(0, 0, 0, 0.318);
-    border-radius: 15px;
+    /*border-radius: 15px;*/
+    padding: 10px;
 }
 
 img {
