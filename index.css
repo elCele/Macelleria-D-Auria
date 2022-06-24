@@ -10,6 +10,7 @@
     height: auto;
     display: flex;
     margin: 20px;
+    align-items: center;
 }
 
 .entry_text, .entry_photo {
@@ -22,7 +23,7 @@
 }
 
 .entry_photo {
-    padding: 100px;
+    padding: 50px;
     background-image: url(./steak-reference-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
