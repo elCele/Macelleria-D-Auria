@@ -16,8 +16,10 @@
     height: 100%;
 }
 
-#steak1 {
-    width: auto;
-    height: auto;
-    padding: 150px;
+.entry_photo {
+    padding: 250px;
+    background-image: url(./steak-reference-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background: ;
 }
