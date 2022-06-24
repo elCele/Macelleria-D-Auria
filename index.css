@@ -8,11 +8,11 @@
     display: flex;
     margin: 20px;
     align-items: center;
+    margin-top: 80px;
 }
 
 .entry_text, .entry_photo {
     width: 50%;
-    height: 110%;
 }
 
 .entry_text {
