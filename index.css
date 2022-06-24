@@ -16,9 +16,13 @@
     height: 100%;
 }
 
+.entry_text {
+    margin-right: 150px;
+}
+
 .entry_photo {
     background-image: url(./steak-reference-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
