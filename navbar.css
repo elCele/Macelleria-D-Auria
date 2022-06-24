@@ -31,11 +31,10 @@ ul.nav li.current a {
 img {
     height: 65px;
     width: 65px;
-    right: 0px;
+    right: 10px;
     position: absolute;
 }
 
 .navbar {
     display: flex;
-    margin-right: 10px;
 }
