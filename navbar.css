@@ -4,13 +4,12 @@ ul.nav {
     list-style:none;
     height:36px; 
     line-height:36px;
-    background:#ff4242;
     font-family:Arial, Helvetica, sans-serif;
     font-size:13px;
     align-items: right;
 }
 ul.nav li {
-    border-right:1px solid #ff4242;
+    color: black;
     float:left;
 }
 ul.nav a {
@@ -21,5 +20,5 @@ ul.nav a {
 }
 ul.nav a:hover,
 ul.nav li.current a {
-    background:#c43333;
+    background-color: rgba(0, 0, 0, 0.318);
 }
